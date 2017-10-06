@@ -1,2 +1,2 @@
 # dc_wx_bot
-Yet another simple bot
+Yet another simple chatbot
