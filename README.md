@@ -1,2 +1,2 @@
-# dc_wx_bot
+# DC WX Bot
 Yet another simple chatbot
