@@ -12,8 +12,8 @@ class fortune:
     async def fortune(self):
         """Get random fortune
         """
-
-        await self.bot.say("I can do stuff!")
+        fortune_text = subprocess.check_output(['fortune'])
+        await self.bot.say(fortune_text)
 
 
 def setup(bot):
