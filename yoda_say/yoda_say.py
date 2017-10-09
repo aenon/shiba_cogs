@@ -1,18 +1,17 @@
 import discord
 from discord.ext import commands
 
-class cog_name:
-    """My custom cog that does stuff!"""
+class yoda_say:
+    """May the force be with you"""
 
     def __init__(self, bot):
         self.bot = bot
 
     @commands.command()
-    async def mycom(self):
-        """This does stuff!"""
+    async def yoda_say(self):
+        """May the force be with you"""
 
-        #Your code will go here
         await self.bot.say("I can do stuff!")
 
 def setup(bot):
-    bot.add_cog(cog_name(bot))
+    bot.add_cog(yoda_say(bot))
