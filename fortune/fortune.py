@@ -13,7 +13,7 @@ class fortune:
     async def fortune(self):
         """Get random fortune
         """
-        fortune_text = subprocess.check_output(['fortune'])
+        fortune_text = str(subprocess.check_output(['fortune'])).replace('\n', ' ').replace('\t', '  ')
         await self.bot.say(fortune_text)
 
 
