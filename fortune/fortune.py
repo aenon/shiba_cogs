@@ -13,7 +13,7 @@ class fortune:
         """Get random fortune
         """
         fortune_text = subprocess.check_output(['fortune'])
-        #fortune_text = fortune_text.decode('utf8')#.replace('\n', '  ').replace('\t', ' ')
+        fortune_text = fortune_text.decode('utf8')
         fortune_text = str(fortune_text).replace('\n', ' ').replace('\t', '  ')
         await self.bot.say(fortune_text)
 
