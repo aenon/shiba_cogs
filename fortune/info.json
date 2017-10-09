@@ -1,0 +1,9 @@
+{
+  "AUTHOR" : "Xilin (Aenon) Sun",
+  "DESCRIPTION" : "Provides fortune cookies of different flavors based on the ubuntu packages of fortune-mod and fortunes",
+  "SHORT" : "Provides fortune cookies",
+  "DISABLED" : false,
+  "NAME" : "fortune",
+  "TAGS" : ["fortune", "cookie"],
+  "HIDDEN" : false
+}
