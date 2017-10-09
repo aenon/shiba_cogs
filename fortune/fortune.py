@@ -9,11 +9,11 @@ class fortune:
         self.bot = bot
 
     @commands.command()
-    async def fortune(self, *, user : discord.Member):
+    async def fortune(self):
         """Get random fortune
         """
 
-        await self.bot.say()
+        await self.bot.say("I can do stuff!")
 
 
 def setup(bot):
