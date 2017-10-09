@@ -1,5 +1,4 @@
 import discord
-import random
 import subprocess
 from discord.ext import commands
 
@@ -13,7 +12,8 @@ class fortune:
     async def fortune(self):
         """Get random fortune
         """
-        fortune_text = subprocess.check_output(['fortune']).decode('utf8')
+        fortune_text = subprocess.check_output(['fortune'])
+        fortune_text = fortune_text.decode('utf8').replace('\n', '  ').replace('\t', ' ')
         await self.bot.say(fortune_text)
 
 
