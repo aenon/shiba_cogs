@@ -1,2 +1,2 @@
-# aebot 
-Yet another simple chatbot
+# AeCogs
+My Cogs for the Red bot 
