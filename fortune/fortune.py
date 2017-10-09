@@ -14,7 +14,7 @@ class fortune:
         """
         fortune_text = subprocess.check_output(['fortune'])
         fortune_text = fortune_text.decode('utf8').replace('\n', '  ').replace('\t', ' ')
-        fortune_text = str(fortune_text)[2:]replace('\n', '  ').replace('\t', ' ')
+        fortune_text = str(fortune_text)[2:].replace('\n', '  ').replace('\t', ' ')
         await self.bot.say(fortune_text)
 
 
