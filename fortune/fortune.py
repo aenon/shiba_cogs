@@ -1,5 +1,6 @@
 import discord
 import random
+import subprocess
 from discord.ext import commands
 
 class fortune:
