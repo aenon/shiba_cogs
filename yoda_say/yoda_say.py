@@ -9,7 +9,10 @@ class yoda_say:
 
     @commands.command()
     async def yoda_say(self, sentence):
-        """May the force be with you"""
+        """ Credit to Zenadix and muddyfish
+        source: https://codegolf.stackexchange.com/questions/68559/
+        a-yoda-speaking-challenge-this-is
+        """
         t = sentence.split()
         u = ' '.join(t[2:]).rstrip('!.')
         if t[0].lower() in 'i we you he she it they'.split():
