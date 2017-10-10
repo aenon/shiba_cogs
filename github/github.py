@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 class github:
-    """This cog checks the information of a repo, user or organization"""
+    """Checks the information of a repo, user or organization on github.com"""
 
     def __init__(self, bot):
         self.bot = bot
