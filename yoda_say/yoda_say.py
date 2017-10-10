@@ -25,8 +25,15 @@ class yoda_say:
     @commands.command()
     async def yoda_say(self, sentence):
         """May the force be with you"""
-
-        await self.bot.say(yoda_translate(sentence))
+        t = sentence.split()
+        u = ' '.join(t[2:]).rstrip('!.')
+        if t[0].lower() in 'i we you he she it they'.split():
+            sentence = "{}{}, {} {}.".format(
+                u[0].upper(),
+                u[1:],
+                ['I', t[0].lower()][t[0] != 'I'], 
+                t[1])
+        await self.bot.say(sentence)
 
 def setup(bot):
     bot.add_cog(yoda_say(bot))
