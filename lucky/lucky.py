@@ -9,7 +9,9 @@ class lucky:
 
     @commands.command()
     async def lucky(self):
-        """Cog for Husky Lucky"""
+        """Cog for Husky Lucky
+        instagram https://www.instagram.com/thehuskylucky/
+        get random post: description and url"""
 
         await self.bot.say("This is work in progress!")
 
