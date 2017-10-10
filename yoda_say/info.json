@@ -1,7 +1,7 @@
 {
     "AUTHOR" : "Xilin (Aenon) Sun",
-    "DESCRIPTION" : "Say in the Yoda way",
-    "SHORT" : "Say in the Yoda way",
+    "DESCRIPTION" : "Translate the sentence, it will.",
+    "SHORT" : "Translate the sentence, it will.",
     "DISABLED" : false,
     "NAME" : "yoda_say",
     "TAGS" : ["yoda", "jedi", "star_wars"],
