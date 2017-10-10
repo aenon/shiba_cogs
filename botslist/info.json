@@ -1,0 +1,9 @@
+{
+    "AUTHOR" : "Xilin (Aenon) Sun",
+    "DESCRIPTION" : "Get Discord bot information from https://bots.discord.pw",
+    "SHORT" : "Discord bot list",
+    "DISABLED" : false,
+    "NAME" : "botslist",
+    "TAGS" : ["discord", "bot", "list"],
+    "HIDDEN" : false
+}
