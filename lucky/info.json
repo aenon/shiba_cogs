@@ -1,0 +1,9 @@
+{
+    "AUTHOR" : "Xilin (Aenon) Sun",
+    "DESCRIPTION" : "Shows updates of Husky Lucky and her family and friends.",
+    "SHORT" : "Shows updates of Husky Lucky and her family and friends.",
+    "DISABLED" : false,
+    "NAME" : "lucky",
+    "TAGS" : ["husky", "dog", "instagram"],
+    "HIDDEN" : false
+}
