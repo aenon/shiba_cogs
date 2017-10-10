@@ -1,0 +1,9 @@
+{
+    "AUTHOR" : "Xilin (Aenon) Sun",
+    "DESCRIPTION" : "Read Hackernews posts",
+    "SHORT" : "Read Hackernews posts",
+    "DISABLED" : false,
+    "NAME" : "hackernews",
+    "TAGS" : ["hn", "news", "hacker"],
+    "HIDDEN" : false
+}
