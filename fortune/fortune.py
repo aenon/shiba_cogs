@@ -9,10 +9,12 @@ class fortune:
         self.bot = bot
 
     @commands.command()
-    async def fortune(self):
+    async def fortune(self, flavor = 'default'):
         """Get random fortune
         """
         fortune_text = subprocess.check_output(['fortune'])
+        if flavor.strip().lower() in ['cn', 'zh', 'chinese', 'shici']:
+            fortune_text = subprocess.check_output(['fortune-zh'])
         fortune_text = fortune_text.decode('utf8')
         fortune_text = str(fortune_text).replace('\n', ' ').replace('\t', '  ')
         await self.bot.say(fortune_text)
