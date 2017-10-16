@@ -1,4 +1,4 @@
-# Red - Aenon's Red Cogs
+# Shiba - Aenon's Red Cogs
 
 This repo contains my cogs for the Red bot on Discord. 
 

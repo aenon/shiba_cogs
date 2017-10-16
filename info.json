@@ -1,6 +1,6 @@
 {
     "AUTHOR" : "Xilin (Aenon) Sun",
-    "NAME" : "AeCogs",
+    "NAME" : "ShibaCogs",
     "SHORT" : "Aenon's personal cogs",
     "DESCRIPTION" : "My personal cogs for the Red bot on Discord, providing information and performing tasks on Google Calendar, Vultr and more."
 }
