@@ -1,0 +1,9 @@
+{
+    "AUTHOR" : "Xilin (Aenon) Sun",
+    "DESCRIPTION" : "Show weather information from wttr.in",
+    "SHORT" : "Show weather information from wttr.in",
+    "DISABLED" : false,
+    "NAME" : "wttr",
+    "TAGS" : ["wttr", "weather"],
+    "HIDDEN" : false
+}
