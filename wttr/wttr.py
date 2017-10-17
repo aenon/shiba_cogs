@@ -11,7 +11,7 @@ class wttr:
     async def wttr(self):
         """Show weather"""
 
-        weather = subprocess.check_output(['curl'])
+        weather = subprocess.check_output(['curl', 'wttr.in'])
         weather = weather.encode('utf-8')
         await self.bot.say(weather)
 
