@@ -13,7 +13,7 @@ class wttr:
         """Show weather"""
 
         weather = subprocess.check_output(['curl', 'wttr.in'])
-        weather = weather.encode('utf-8')
+        weather = weather.decode('utf-8')
         await self.bot.say(weather)
 
 def setup(bot):
