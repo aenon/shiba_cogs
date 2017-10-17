@@ -1,4 +1,5 @@
 import discord
+import subprocess
 from discord.ext import commands
 
 class wttr:
