@@ -1,9 +1,9 @@
 {
     "AUTHOR" : "Xilin (Aenon) Sun",
-    "DESCRIPTION" : "A longer description, appears on !cog list repo cogname",
-    "SHORT" : "A Short description, appears on !cog list repo",
+    "DESCRIPTION" : "Thisisjustsuchacog",
+    "SHORT" : "thiscog",
     "DISABLED" : false,
-    "NAME" : "cog_name",
-    "TAGS" : ["example", "tags", "list"],
+    "NAME" : "this_cog",
+    "TAGS" : ["", ""],
     "HIDDEN" : false
 }
